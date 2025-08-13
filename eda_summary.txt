@@ -1,0 +1,41 @@
+MICRO-EDA – Airbnb Rio
+
+1) Top 10 Bairros (por número de anúncios)
+neighbourhood_cleansed
+Copacabana                  10013
+Barra da Tijuca              2850
+Ipanema                      2422
+Recreio dos Bandeirantes     1738
+Jacarepaguá                  1604
+Centro                       1513
+Botafogo                     1461
+Leblon                       1254
+Santa Teresa                 1081
+Flamengo                      756
+
+2) Preço médio por tipo de quarto
+room_type
+Entire home/apt    824.549134
+Hotel room         806.812500
+Private room       426.202374
+Shared room        224.013216
+
+3) Correlação com preço (Pearson)
+price                   1.000000
+accommodates            0.389825
+bedrooms                0.315873
+bathrooms               0.284939
+beds                    0.237029
+number_of_reviews       0.030109
+review_scores_rating    0.020665
+
+4) Estatísticas descritivas das variáveis principais
+              price  accommodates   bathrooms      bedrooms          beds  number_of_reviews  review_scores_rating
+count  31772.000000  31772.000000  31772.0000  31772.000000  31772.000000       31772.000000          31772.000000
+mean     739.958360      3.693252      1.3671      1.387952      2.153311          24.112741              4.815979
+std      457.360796      1.899247      0.7119      0.841544      1.626848          46.395426              0.297785
+min       33.000000      1.000000      0.0000      0.000000      0.000000           0.000000              0.000000
+25%      379.000000      2.000000      1.0000      1.000000      1.000000           1.000000              4.812309
+50%      650.000000      4.000000      1.0000      1.000000      2.000000           6.000000              4.830000
+75%     1000.000000      4.000000      2.0000      2.000000      3.000000          26.000000              5.000000
+max     2011.000000     16.000000     20.0000     26.000000     50.000000         710.000000              5.000000
